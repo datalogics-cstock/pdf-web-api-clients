@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFWebAPIClient", "PDFWebAP
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFB88BC8-6140-455E-B289-67724B10F797}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestDriver", "ConsoleTestDriver\ConsoleTestDriver.csproj", "{CDD89618-77C2-4893-9B1D-85B04752BA9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceWebApp", "ServiceWebApp\ServiceWebApp.csproj", "{DA44AC43-F4C0-4D78-8E3D-7832AD03D93E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{080D88C9-8233-42B4-9DAA-4605F7713244}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{080D88C9-8233-42B4-9DAA-4605F7713244}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{080D88C9-8233-42B4-9DAA-4605F7713244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD89618-77C2-4893-9B1D-85B04752BA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD89618-77C2-4893-9B1D-85B04752BA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD89618-77C2-4893-9B1D-85B04752BA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD89618-77C2-4893-9B1D-85B04752BA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA44AC43-F4C0-4D78-8E3D-7832AD03D93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA44AC43-F4C0-4D78-8E3D-7832AD03D93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA44AC43-F4C0-4D78-8E3D-7832AD03D93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA44AC43-F4C0-4D78-8E3D-7832AD03D93E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

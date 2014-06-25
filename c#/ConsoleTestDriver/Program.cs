@@ -50,8 +50,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Datalogics.PDFWebAPI;
 
-namespace Datalogics.PDFWebAPI
+namespace Datalogics.PDFWebAPI.TestDriver
 {
     /// <summary>
     /// This program demonstrates how to use the PDFWebAPIClient to make requests to

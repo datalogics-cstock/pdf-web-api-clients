@@ -1,0 +1,8 @@
+**/.DS_Store
+**/*.exe
+**/*.pdb
+**/TemporaryGeneratedFile_*
+**/bin/
+**/Debug/
+**/Release/
+**/*.user
