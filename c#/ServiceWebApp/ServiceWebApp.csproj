@@ -67,6 +67,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ServiceForm.aspx" />
+    <Content Include="SignInForm.aspx" />
+    <Content Include="SignUpForm.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +79,20 @@
     </Compile>
     <Compile Include="ServiceForm.aspx.designer.cs">
       <DependentUpon>ServiceForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignInForm.aspx.cs">
+      <DependentUpon>SignInForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignInForm.aspx.designer.cs">
+      <DependentUpon>SignInForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpForm.aspx.cs">
+      <DependentUpon>SignUpForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpForm.aspx.designer.cs">
+      <DependentUpon>SignUpForm.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
