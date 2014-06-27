@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUpForm.aspx.cs" Inherits="ServiceWebApp.SignUpForn" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUpForm.aspx.cs" Inherits="ServiceWebApp.SignUpForm" %>
 
 <!DOCTYPE html>
 
@@ -50,9 +50,10 @@
         <asp:TextBox ID="TextBox9" runat="server" CssClass="auto-style6"></asp:TextBox>
         <br class="auto-style6" />
         <br class="auto-style6" />
-        <span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Country:&nbsp; </span>
-        <asp:TextBox ID="TextBox10" runat="server" CssClass="auto-style6"></asp:TextBox>
-        <span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ZIP Code:&nbsp; </span>
+        <span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Country:&nbsp; </span>
+        <asp:DropDownList ID="DropDownList1" runat="server" Height="24px" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" Width="180px">
+        </asp:DropDownList>
+        <span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ZIP Code:&nbsp; </span>
         <asp:TextBox ID="TextBox11" runat="server" CssClass="auto-style6"></asp:TextBox>
         <br />
         <br />
